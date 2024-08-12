@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: jwayne26/final
+          images: jwayne26/sprint-11-docker-final
           
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
